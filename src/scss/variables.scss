@@ -1,0 +1,15 @@
+$color-front-default: #f25955;
+$dark: #2f2b2b;
+$light: #F8F9FA;
+
+@mixin trocarCor($cor) {
+  color: $cor;
+
+  &:hover {
+    color: lighten($cor, 20%);
+  }
+}
+
+.btn {
+  @include trocarCor(#FFF);
+}

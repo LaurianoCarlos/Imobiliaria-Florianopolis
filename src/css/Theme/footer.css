@@ -1,0 +1,19 @@
+.main_footer h1 {
+  font-size: 1.4em;
+  border-bottom: 1px solid #CCC;
+}
+.main_footer ul li {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 4px;
+}
+.main_footer ul li a {
+  color: #666;
+  text-decoration: none;
+}
+
+.main_copyright {
+  font-size: 0.875em;
+}
+
+/*# sourceMappingURL=footer.css.map */
