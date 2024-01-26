@@ -2414,7 +2414,7 @@ select.selectpicker {
 }
 
 .bootstrap-select {
-  width: 220px \0 ; /*IE9 and below*/
+  width: 220px;
   vertical-align: middle;
 }
 .bootstrap-select > .dropdown-toggle {
@@ -2582,6 +2582,28 @@ select.selectpicker {
   right: 12px;
   margin-top: -2px;
   vertical-align: middle;
+}
+.bootstrap-select .dropdown-toggle .bs-select-clear-selected {
+  position: relative;
+  display: block;
+  margin-right: 5px;
+  text-align: center;
+}
+.bs3.bootstrap-select .dropdown-toggle .bs-select-clear-selected {
+  padding-right: inherit;
+}
+
+.bootstrap-select .dropdown-toggle .bs-select-clear-selected span {
+  position: relative;
+  top: calc((-0.6666666667em + 1ex) / 2);
+  pointer-events: none;
+}
+.bs3.bootstrap-select .dropdown-toggle .bs-select-clear-selected span {
+  top: auto;
+}
+
+.bootstrap-select .dropdown-toggle.bs-placeholder .bs-select-clear-selected {
+  display: none;
 }
 .input-group .bootstrap-select.form-control .dropdown-toggle {
   border-radius: inherit;
@@ -2755,6 +2777,9 @@ select.selectpicker {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
+.bs-actionsbox .btn-group {
+  display: block;
+}
 .bs-actionsbox .btn-group button {
   width: 50%;
 }
@@ -2765,6 +2790,9 @@ select.selectpicker {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+}
+.bs-donebutton .btn-group {
+  display: block;
 }
 .bs-donebutton .btn-group button {
   width: 100%;
@@ -2852,6 +2880,31 @@ select.selectpicker {
 .main_list_group .main_list_group_items .main_list_group_items_item a div h2 {
   color: #FFF;
   font-size: 1.2em;
+}
+
+.main_contact form {
+  padding: 20px;
+  background-color: #fff;
+  margin: 0 auto;
+  margin-top: 40px;
+  border-radius: 4px;
+  width: 600px;
+  max-width: calc(100% - 40px);
+}
+.main_contact form h2 {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+.main_contact form input {
+  margin-bottom: 5px;
+}
+
+.main_contact_types h2 {
+  font-size: 1.4em;
+  color: #666;
+}
+.main_contact_types p {
+  font-size: 0.875em;
 }
 
 .img-responsive-16by9 {
