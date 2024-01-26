@@ -43,37 +43,6 @@
                     </select>
                 </div>
 
-                <div style="display: none">
-                    <div class="form-group col-12 col-sm-6 col-lg-3">
-                        <label for="search" class="mb-2"><b>Comprar ou alugar</b></label>
-                        <select name="search" id="search" class="selectpicker" title="Escolha...">
-                            <option value="">Comprar</option>
-                            <option value="">Alugar</option>
-                        </select>
-                    </div>
-                    <div class="form-group col-12 col-sm-6 col-lg-3">
-                        <label for="search" class="mb-2"><b>Comprar ou alugar</b></label>
-                        <select name="search" id="search" class="selectpicker" title="Escolha...">
-                            <option value="">Comprar</option>
-                            <option value="">Alugar</option>
-                        </select>
-                    </div>
-                    <div class="form-group col-12 col-sm-6 col-lg-3">
-                        <label for="search" class="mb-2"><b>Comprar ou alugar</b></label>
-                        <select name="search" id="search" class="selectpicker" title="Escolha...">
-                            <option value="">Comprar</option>
-                            <option value="">Alugar</option>
-                        </select>
-                    </div>
-                    <div class="form-group col-12 col-sm-6 col-lg-3">
-                        <label for="search" class="mb-2"><b>Comprar ou alugar</b></label>
-                        <select name="search" id="search" class="selectpicker" title="Escolha...">
-                            <option value="">Comprar</option>
-                            <option value="">Alugar</option>
-                        </select>
-                    </div>
-                </div>
-
                 <div class="col-6 mt-3">
                     <a href="#" class="text-front text-decoration-none">Filtro Avançado &darr;</a>
                 </div>
