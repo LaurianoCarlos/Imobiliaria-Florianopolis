@@ -2907,6 +2907,43 @@ select.selectpicker {
   font-size: 0.875em;
 }
 
+.main_property_content .carousel-item img {
+  height: 450px;
+}
+.main_property_content .main_property_content_price .main_property_content_price_iptu {
+  font-size: 0.875em;
+  margin-bottom: 0;
+}
+.main_property_content .main_property_contract h2 {
+  font-size: 1.2em;
+  padding: 20px;
+  margin: 0;
+  border-radius: 10px 10px 0 0;
+}
+.main_property_content .main_property_contract form {
+  padding: 20px;
+  background-color: #F9F9F9;
+  border: 1px solid #CCC;
+}
+
+.btn-custom-whatsapp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #28a745;
+  border: 2px solid #28a745;
+  border-radius: 10px;
+  text-decoration: none;
+  background-color: #fff;
+  padding: 10px;
+  font-size: 1.2em;
+}
+
+.btn-custom-whatsapp:hover {
+  color: #fff;
+  background-color: #28a745;
+}
+
 .img-responsive-16by9 {
   display: block;
   height: 0;

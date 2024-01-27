@@ -1,0 +1,48 @@
+.main_property_content {
+  .carousel-item {
+    img {
+      height: 450px;
+    }
+  }
+  .main_property_content_price {
+    .main_property_content_price_iptu {
+      font-size: 0.875em;
+      margin-bottom: 0;
+    }
+    p {
+
+    }
+  }
+  .main_property_contract {
+
+
+    h2 {
+      font-size: 1.2em;
+      padding: 20px;
+      margin: 0;
+      border-radius: 10px 10px 0 0;
+    }
+    form {
+      padding: 20px;
+      background-color: #F9F9F9;
+      border: 1px solid #CCC
+    }
+  }
+}
+
+.btn-custom-whatsapp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: $success;
+  border: 2px solid $success;
+  border-radius: 10px;
+  text-decoration: none;
+  background-color: #fff;
+  padding: 10px;
+  font-size: 1.2em;
+}
+.btn-custom-whatsapp:hover {
+  color: #fff;
+  background-color: $success;
+}

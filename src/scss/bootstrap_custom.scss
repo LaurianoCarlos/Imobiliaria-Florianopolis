@@ -1,10 +1,17 @@
 @import "variables";
 
 $theme-colors: (
-    'front': $color-front-default,
-    'dark':$dark,
-    'ligth':$light
+        'front': $color-front-default,
+        'dark':$dark,
+        'ligth':$light,
+        'primary ': $primary,
+        'secondary': $secondary,
+        'success':$success,
+        'info': $info,
+        'warning': $warning,
+        'danger': $danger,
 );
+
 
 
 @import '../../node_modules/bootstrap/scss/bootstrap';
